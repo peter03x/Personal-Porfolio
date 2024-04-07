@@ -72,7 +72,7 @@ function Education() {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="./src/assets/VNU-HCMUS.jpg"
+                    photo="../assets/VNU-HCMUS.jpg"
                     titl={"TranPhu"}
                     schoolName="VNUHCM-University of Science (HCMUS)"
                     studyYear="2021-2022"
@@ -82,7 +82,7 @@ function Education() {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="./src/assets/Swinburne.jpg"
+                    photo="../assets/Swinburne.jpg"
                     titl={"TranPhu"}
                     schoolName="Swinburne University of Science"
                     studyYear="2022-Now"
@@ -93,7 +93,7 @@ function Education() {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="./src/assets/Webdevbootcamp.jpg"
+                    photo="../assets/Webdevbootcamp.jpg"
                     titl={"TranPhu"}
                     schoolName="Angela Yu - The Complete 2024 Web Development Boot Camp"
                     studyYear="2024"

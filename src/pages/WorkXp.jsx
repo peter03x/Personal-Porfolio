@@ -7,7 +7,7 @@ function WorkExperience () {
             <h2 className = "heading">Work <span>Experience</span></h2>
             <div>
                 <EducationCard
-                    photo="./src/assets/USEC.jpg"
+                    photo="../assets/USEC.jpg"
                     schoolName={"University of Science Esports Club"}
                     studyYear={"2021-2022"}
                     achievement1={"Prepare paperwork for upcoming tournaments"}
@@ -17,7 +17,7 @@ function WorkExperience () {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="./src/assets/VISS.jpg"
+                    photo="../assets/VISS.jpg"
                     schoolName={"Vietnamese International Students at Swinburne"}
                     studyYear={"2021-2022"}
                     achievement1={"Draft proposal plans for upcoming events."}
@@ -29,7 +29,7 @@ function WorkExperience () {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="./src/assets/project.jpg"
+                    photo="../assets/project.jpg"
                     schoolName={"Personal Project"}
                     studyYear={"2024"}
                     achievement1={"Personal Porfofio Website."}
