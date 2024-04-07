@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import NavBar from "./NavBar.jsx";
 import './App.css'
 import './index.css'
@@ -10,8 +9,6 @@ import Skills from "./pages/Skills.jsx";
 import WorkXp from "./pages/WorkXp.jsx";
 
 function App() {
-    const [count, setCount] = useState(0)
-
     return (
     <>
         <div className= "home-page">

@@ -62,7 +62,7 @@ function Education() {
             <h2 className = "heading">My <span>Education</span></h2>
             <div>
                 <EducationCard
-                    photo="./src/assets/TranPhu.webp"
+                    photo="/src/assets/TranPhu.webp"
                     titl={"TranPhu"}
                     schoolName="Tran Phu High School"
                     studyYear="2019-2021"
