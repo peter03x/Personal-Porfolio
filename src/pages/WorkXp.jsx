@@ -1,4 +1,7 @@
 import {EducationCard} from "./Education.jsx";
+import USECImage from '../assets/USEC.jpg';
+import VISSImage from '../assets/VISS.jpg';
+import ProjectImage from '../assets/project.jpg';
 
 
 function WorkExperience () {
@@ -7,7 +10,7 @@ function WorkExperience () {
             <h2 className = "heading">Work <span>Experience</span></h2>
             <div>
                 <EducationCard
-                    photo="../assets/USEC.jpg"
+                    photo={USECImage}
                     schoolName={"University of Science Esports Club"}
                     studyYear={"2021-2022"}
                     achievement1={"Prepare paperwork for upcoming tournaments"}
@@ -17,7 +20,7 @@ function WorkExperience () {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="../assets/VISS.jpg"
+                    photo={VISSImage}
                     schoolName={"Vietnamese International Students at Swinburne"}
                     studyYear={"2021-2022"}
                     achievement1={"Draft proposal plans for upcoming events."}
@@ -29,7 +32,7 @@ function WorkExperience () {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="../assets/project.jpg"
+                    photo={ProjectImage}
                     schoolName={"Personal Project"}
                     studyYear={"2024"}
                     achievement1={"Personal Porfofio Website."}

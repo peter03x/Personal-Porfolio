@@ -6,6 +6,9 @@ import Typography from '@mui/material/Typography';
 import AspectRatio from '@mui/joy/AspectRatio';
 import {CardActionArea} from "@mui/material";
 import TranPhuImage from '../assets/TranPhu.webp';
+import SwinburneImage from '../assets/Swinburne.jpg';
+import HCMUSImage from '../assets/VNU-HCMUS.jpg';
+import UdemyImage from '../assets/Webdevbootcamp.jpg';
 
 function EducationCard(props) {
     return (
@@ -72,7 +75,7 @@ function Education() {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="../assets/VNU-HCMUS.jpg"
+                    photo={HCMUSImage}
                     titl={"TranPhu"}
                     schoolName="VNUHCM-University of Science (HCMUS)"
                     studyYear="2021-2022"
@@ -82,7 +85,7 @@ function Education() {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="../assets/Swinburne.jpg"
+                    photo={SwinburneImage}
                     titl={"TranPhu"}
                     schoolName="Swinburne University of Science"
                     studyYear="2022-Now"
@@ -93,7 +96,7 @@ function Education() {
                 />
                 <div className={"vl"}></div>
                 <EducationCard
-                    photo="../assets/Webdevbootcamp.jpg"
+                    photo={UdemyImage}
                     titl={"TranPhu"}
                     schoolName="Angela Yu - The Complete 2024 Web Development Boot Camp"
                     studyYear="2024"
