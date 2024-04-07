@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import AspectRatio from '@mui/joy/AspectRatio';
 import {CardActionArea} from "@mui/material";
+import TranPhuImage from '../assets/TranPhu.webp';
 
 function EducationCard(props) {
     return (
@@ -62,7 +63,7 @@ function Education() {
             <h2 className = "heading">My <span>Education</span></h2>
             <div>
                 <EducationCard
-                    photo="/src/assets/TranPhu.webp"
+                    photo={TranPhuImage}
                     titl={"TranPhu"}
                     schoolName="Tran Phu High School"
                     studyYear="2019-2021"
