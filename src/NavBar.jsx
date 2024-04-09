@@ -7,7 +7,7 @@ export default function NavBar() {
             <CustomLink to="/education">Education</CustomLink>
             <CustomLink to="/workxp">Work Experience</CustomLink>
             <CustomLink to="/skills">Skills</CustomLink>
-            <CustomLink to="/contact">Contacts</CustomLink>
+            {/* <CustomLink to="/contact">Contacts</CustomLink> */}
         </ul>
     </nav>
 }
